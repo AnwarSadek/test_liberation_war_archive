@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Liberation War Archive — Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body class="site">
+  <header class="site-header">
+    <div class="container nav-row">
+      <a class="brand" href="index.html">Liberation War Archive</a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Photographs</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Preserve. Remember. Learn.</h1>
+        <p class="lead">A curated archive of photographs, documents, and stories from the Liberation War — presented with care and respect.</p>
+        <p class="cta-row">
+          <a class="btn btn-primary" href="gallery.html">Explore Photographs</a>
+          <a class="btn btn-outline" href="contact.html">Get Involved</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="container intro">
+      <div class="grid-2">
+        <article>
+          <h2>About the Archive</h2>
+          <p>This archive collects verified photographs and first-hand accounts to preserve the memory of the Liberation War. Materials are organized, described, and presented to support education and research.</p>
+        </article>
+        <article>
+          <h2>Featured Collection</h2>
+          <p>Browse a small selection of restored photographs in the gallery. Each image includes contextual captions and source information where available.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container preview">
+      <h3>Gallery Preview</h3>
+      <div class="preview-grid">
+        <!-- Local images: drop your exported Photoshop images into the images/ folder and name them army1.jpg, army2.jpg, army3.jpg -->
+        <a href="gallery.html#img1" class="preview-item" style="background-image: url('images/a.jpg');" aria-label="Preview 1"></a>
+        <a href="gallery.html#img2" class="preview-item" style="background-image: url('images/b.jpeg');" aria-label="Preview 2"></a>
+        <a href="gallery.html#img3" class="preview-item" style="background-image: url('images/c.jpg');" aria-label="Preview 3"></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year">2025</span> Liberation War Archive — For education and remembrance.</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

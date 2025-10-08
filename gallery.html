@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Liberation War Archive — Photographs</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body class="site">
+  <header class="site-header">
+    <div class="container nav-row">
+      <a class="brand" href="index.html">Liberation War Archive</a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Photographs</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <h1>Photographs Gallery</h1>
+      <p class="lead">Click any image to view it larger with caption. Images are illustrative; replace with verified archive photos when ready.</p>
+
+      <div class="gallery-grid">
+        <!-- Thumbnails link to anchor targets for a CSS-only lightbox -->
+        <!-- Place your Photoshop-exported images in the images/ folder and name them as below -->
+        <a href="#img1" id="thumb1" class="thumb" style="background-image: url('images/d.jpeg');" aria-label="Photo 1"></a>
+        <a href="#img2" id="thumb2" class="thumb" style="background-image: url('images/e.jpeg');" aria-label="Photo 2"></a>
+        <a href="#img3" id="thumb3" class="thumb" style="background-image: url('images/f.jpeg');" aria-label="Photo 3"></a>
+        <a href="#img4" id="thumb4" class="thumb" style="background-image: url('images/g.jpg');" aria-label="Photo 4"></a>
+        <a href="#img5" id="thumb5" class="thumb" style="background-image: url('images/h.jpg');" aria-label="Photo 5"></a>
+        <a href="#img6" id="thumb6" class="thumb" style="background-image: url('images/k.jpg');" aria-label="Photo 6"></a>
+      </div>
+    </section>
+
+    <!-- CSS-only lightbox targets -->
+    <div class="lightboxes">
+      <div id="img1" class="lightbox">
+        <a class="close" href="gallery.html" aria-label="Close">×</a>
+        <img src="images/army1_large.jpg" alt="Historic photograph 1">
+        <p class="caption">Photo 1 — Description and source info (replace with archive metadata).</p>
+      </div>
+      <div id="img2" class="lightbox">
+        <a class="close" href="gallery.html" aria-label="Close">×</a>
+        <img src="images/army2_large.jpg" alt="Historic photograph 2">
+        <p class="caption">Photo 2 — Description and source info.</p>
+      </div>
+      <div id="img3" class="lightbox">
+        <a class="close" href="gallery.html" aria-label="Close">×</a>
+        <img src="images/army3_large.jpg" alt="Historic photograph 3">
+        <p class="caption">Photo 3 — Description and source info.</p>
+      </div>
+      <div id="img4" class="lightbox">
+        <a class="close" href="gallery.html" aria-label="Close">×</a>
+        <img src="images/army4_large.jpg" alt="Historic photograph 4">
+        <p class="caption">Photo 4 — Description and source info.</p>
+      </div>
+      <div id="img5" class="lightbox">
+        <a class="close" href="gallery.html" aria-label="Close">×</a>
+        <img src="images/army5_large.jpg" alt="Historic photograph 5">
+        <p class="caption">Photo 5 — Description and source info.</p>
+      </div>
+      <div id="img6" class="lightbox">
+        <a class="close" href="gallery.html" aria-label="Close">×</a>
+        <img src="images/army6_large.jpg" alt="Historic photograph 6">
+        <p class="caption">Photo 6 — Description and source info.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><a href="index.html">← Back to Home</a></p>
+    </div>
+  </footer>
+</body>
+</html>
